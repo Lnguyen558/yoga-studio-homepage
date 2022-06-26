@@ -132,9 +132,10 @@ nav ul li a:hover , nav ul li:hover
 }
 
 /* format header in three column */
-.one-third h3
+.one-third h3 
 {
     color: red;
+   
 }
 
 /* format the clear fix div 
@@ -172,4 +173,69 @@ footer
 .social-icons i:hover
 {
  color: blue;
+}
+
+
+/* modify to make the site looks
+good on mobile device using @medi
+https://www.w3schools.com/cssref/css3_pr_mediaquery.asp 
+*/
+
+@media (max-width: 768px)
+{
+nav ul
+{
+    padding-left: 0;
+}
+
+nav ul li 
+{
+    width: 100%;
+    border-left: 0;
+    border-right: 0;
+
+}
+
+nav ul li a 
+{
+  
+    font-size: 16px;
+}
+
+.left-col 
+{
+    width: 100%;
+    padding: 0;
+}
+
+.side-bio-image 
+{
+    width: 100%;
+   
+    padding-bottom: 1%;
+}
+
+.one-third 
+{
+    width: 100%;
+    padding: 0;
+}
+
+.social-icons
+{
+    font-size: 100%;
+}
+
+
+.one-third p 
+{
+    text-align: left;
+    color: orange;
+    font-size: 15px;
+    margin-left: 5%;
+    margin-right: 3%;
+   
+   
+}
+
 }
