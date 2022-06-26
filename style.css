@@ -1,0 +1,175 @@
+
+/* reset page to margin 0 and padding 0 */
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: #444;
+    text-align: center;
+    background: color #f7f7f7;
+    overflow: auto;
+}
+
+/* reset all image to 100% */
+img
+{
+ max-width: 100%;
+}
+/* format the call us number  div on top */
+#call-us
+{
+width: 100%;
+background-color: #444;
+height: auto;
+overflow: hidden;
+
+
+    
+}
+
+/* format the call us number paragraph */
+#call-us p
+{
+    text-align: right;
+    color: red;
+    font-size: 14px;
+    padding-right: 5%;
+    padding-top: 10px;
+}
+
+/* format the business logo */
+
+#business-logo
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: auto;
+}
+
+/* fomrat the navigation menu icons */
+nav ul
+{
+ list-style: none;
+ 
+ /* padding-left: 50px; */
+ 
+}
+
+/* format the navivagion menu icon */
+nav ul li 
+{
+display: inline-block;
+width: 15%;
+border: 1px solid #444;
+background-color: lightgreen;
+
+}
+
+nav ul li a
+{
+font-weight:700 ;
+text-decoration: none;
+color: #444;
+}
+
+/* make menu item change color when hovering */
+nav ul li a:hover , nav ul li:hover
+{
+    color: red;
+    background-color: yellow;
+    
+}
+
+
+
+/* padding bottom yoga studio image  */
+#studio-image
+{
+    padding-bottom: 2%;
+}
+
+/* format left col after studio image*/
+.left-col
+{
+    font-size: 0;
+    width: 45%;
+    float: left;
+
+}
+
+.left-col p
+{
+    font-size: 15px;
+    text-align: left;
+    padding: 2%;
+}
+
+/* format side bio picture */
+.side-bio-image
+{
+    width: 45%;
+    float: right;
+    padding: 1%;
+}
+
+/* format the three column  */
+.one-third
+{
+    width: 29%;
+    
+    float: left;
+    padding: 1%;
+}
+
+.one-third img
+{
+   
+   width: 90%;
+   height: 200px;
+}
+
+/* format header in three column */
+.one-third h3
+{
+    color: red;
+}
+
+/* format the clear fix div 
+without this the column will push
+up to the previous column */
+
+.clear-fix
+{
+    clear: both;
+}
+
+
+/* format footer */
+footer
+{
+    width: 100%;
+    height: auto;
+ 
+    background-color: #444;
+ 
+    
+}
+
+
+/* format social icons */
+.social-icons i
+{
+    font-size: 30px;
+    color: red;
+    padding: 2%;
+ 
+}
+
+/* change color of social icons when hovering */
+.social-icons i:hover
+{
+ color: blue;
+}
